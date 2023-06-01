@@ -23,14 +23,13 @@ const Popular = () => {
 
       localStorage.setItem("popular", JSON.stringify(data.recipes));
       setPopular(data.recipes);
-      console.log(data.recipes);
     }
   };
 
   return (
     <div>
       <Wrapper>
-        <h3>Popular Picks</h3>
+        <h3>Trending</h3>
 
         <Splide
           options={{
